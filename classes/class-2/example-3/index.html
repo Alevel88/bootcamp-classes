@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body ng-app="myApp">
+
+		<div ng-controller="mainCtrl">
+
+			<ul>
+				<li ng-repeat="movie in getMovies()" class="item" ng-class="{'new-movie': isNew(movie)}">
+					<div>
+						<span>Name:</span>
+						<span>{{movie.tittle}}</span>
+					</div>
+					<div>
+						<span>Year:</span>
+						<span>{{movie.year}}</span>
+					</div>
+					<div>
+						<span>Type:</span>
+						<span>{{movie.tittle}}</span>
+					</div>
+				</li>
+			</ul>
+					
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/main.controller.js"></script>
+		<script src="js/movie.service.js"></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.item {
+	border-style: solid;
+	margin-bottom: 2px;
+	width: 20%;
+}
+
+.new-movie {
+	border-color: #f00;
+}
