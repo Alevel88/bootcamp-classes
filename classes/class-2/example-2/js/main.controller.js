@@ -1,9 +1,13 @@
-var app = angular.module('myApp');
+(function (undefined) { 'use strict'
 
-app.controller('mainCtrl', ['$scope', function ($scope) {
+	var app = angular.module('myApp');
 
-	$scope.sayMyName = function () {
-		alert("My name is " + $scope.name);
-	}
+	app.controller('mainCtrl', ['$scope', function ($scope) {
 
-}])
+		$scope.sayMyName = function () {
+			alert("My name is " + $scope.name);
+		}
+
+	}])
+	
+}());

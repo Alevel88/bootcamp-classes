@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function() { 'use strict'
             $("#content-slider").lightSlider({
                 loop:true,
                 keyPress:true

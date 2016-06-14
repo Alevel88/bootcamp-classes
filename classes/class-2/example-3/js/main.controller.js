@@ -1,15 +1,19 @@
-var app = angular.module('myApp');
+(function (undefined) { 'use strict';
 
-app.controller('mainCtrl', ['$scope', 'movieSrv', function($scope, movieSrv){
+	var app = angular.module('myApp');
 
-	movieSrv.initSrv();
+	app.controller('mainCtrl', ['$scope', 'movieSrv', function($scope, movieSrv){
 
-	$scope.getMovies = function () {
-		return movieSrv.getMovies();
-	}
+		movieSrv.initSrv();
 
-	$scope.isNew = function (movie) {
-		return movie.year > 2000;
-	}
-	
-}])
+		$scope.getMovies = function () {
+			return movieSrv.getMovies();
+		}
+
+		$scope.isNew = function (movie) {
+			return movie.year > 2000;
+		}
+		
+	}])
+
+}());
