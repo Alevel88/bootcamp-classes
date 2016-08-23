@@ -1,4 +1,4 @@
-(function (angular, undefined) {
+(function (angular) {
 
 	angular
 		.module("myApp", []);

@@ -1,4 +1,4 @@
-(function (undefined) { 'use strict'
+(function () { 'use strict'
 
 	function auto () {
 
