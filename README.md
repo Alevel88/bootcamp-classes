@@ -4,6 +4,7 @@
 
 1. [Namespace.](https://github.com/ddessaunet/bootcamp-classes/tree/master/classes/class-1/example-1)
 2. [Injección de dependencias con JQuery.](https://github.com/ddessaunet/bootcamp-classes/tree/master/classes/class-1/example-2)
+3. [Objetos creados con prototype y métodos encadenados.](https://github.com/ddessaunet/bootcamp-classes/tree/master/classes/class-1/example-3)
 
 ## Clase 2
 
